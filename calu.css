@@ -1,0 +1,90 @@
+body{
+    background-color: purple;
+    font-family: Tahoma;
+}
+.container{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+}
+#container{
+    width:200px;
+    padding:8px 8px 20px 8px;
+    margin: 20px auto;
+    background-color: plum;
+    border-radius: 4px;
+    border-top: 2px solid #FFF;
+    border-right: 2px solid #FFF;
+    border-bottom: 2px solid #C1C1C1;
+    border-left: 2px solid #C1C1C1;
+    box-shadow: -3px 3px 7px rgba(0, 0, 0, .6), inset -100px 0px 100px rgba(255, 255, 255 ,.5);*/
+}
+#display{
+    display:block;
+    width: 174px;
+    height :42px;
+    margin: 15px auto;
+    padding: 0 10px;
+    background-color: #FFF;
+    font-size: 28px;
+    color: #666;
+    text-align: right;
+    font-weight: 400;
+    border-radius: 4px;
+    border-top: #C1C1C1;
+    border-right: #C1C1C1;
+    border-bottom: #FFF;
+    border-left: #FFF;
+    box-shadow: inset 0px 0px 10px #030303, inset 0px -20px 1px rgba(150, 150, 150, .2);
+}
+.button{
+    display:inline-block;
+    height:42px;
+    width:42px;
+    margin:2px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 4px;
+}
+.mathButtons{
+    margin: 2px 2px 6px 2px;
+    color: darkgrey;
+    text-shadow:-1px -1px 0px #44006F;
+    background-color: pink;
+    border-top: 2px solid #C1C1C1;
+    border-right: 2px solid  #C1C1C1;
+    border-bottom: 2px solid pink;
+    border-left: 2px solid pink;
+    box-shadow: 0px 0px 2px pink, inset 0px -20px 1px pink;
+}
+.digits{
+    color: #181818;
+    background-color: #EBEBEB;
+    text-shadow: 1px 1px 0px #FFF;
+    border-top: 2px solid #FFF;
+    border-right: 2px solid #FFF;
+    border-bottom: 2px solid #C1C1C1;
+    border-left:2px solid #C1C1C1;
+    border-radius: 4px;
+    box-shadow: 0px 0px 2px #030303, inset 0px -20px 1px #DCDCDC;
+}
+.digits:hover,.mathButtons:hover,#clearButton:hover{
+    background-color: purple;
+    border-top: 2px solid #FFF;
+    border-right: 2px solid #FFF;
+    border-bottom: 2px solid purple;
+    border-left: 2px solid purple;
+    box-shadow: 0px 0px 2px purple, inset 0px -20px 1px purple;
+}
+#clearButton{
+    color: #FFF;
+    background-color: palevioletred;
+    text-shadow: -1px -1px 0px #44006F;
+    border-top: 2px solid #FF8484;
+    border-right: 2px solid #FF8484;
+    border-bottom: 2px solid palevioletred;
+    border-left: 2px solid palevioletred;
+    box-shadow: 0px 0px 2px #030303, inset 0px -20px 1px palevioletred;
+}
